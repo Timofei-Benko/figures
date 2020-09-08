@@ -1,0 +1,79 @@
+html {
+    background-color: coral;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    align-items: center;
+}
+
+div {
+    margin-right: 40px;
+    margin-top: 40px;
+}
+
+.square {
+    height: 200px;
+    width: 200px;
+    background-color: beige;
+} 
+
+.rectangle {
+    height: 200px;
+    width: 400px;
+    background-color: beige;
+}
+
+.circle {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: beige;
+}
+
+.oval {
+    height: 200px;
+    width: 400px;
+    border-radius: 50%;
+    background-color: beige;
+}
+
+.triangle {
+    height: 0;
+    width: 0;
+    border-left: 100px solid transparent;
+    border-right: 300px solid transparent;
+    border-bottom: 200px solid beige;
+}
+
+.arrow-down {
+    height: 0;
+    width: 0;
+    border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+    border-top: 200px solid beige;
+}
+
+.triangle-top-left-90-deg {
+    height: 0;
+    width: 0;
+    border-right: 200px solid transparent;
+    border-top: 200px solid beige;
+}
+
+.trapezium {
+    height: 0px;
+    width: 200px;
+    border-left: 50px solid transparent;
+    border-right: 100px solid transparent;;
+    border-bottom: 200px solid beige;
+}
+
+.paralelogram {
+    height: 200px;
+    width: 400px;
+    background-color: beige;
+    transform: skew(25deg);
+}
